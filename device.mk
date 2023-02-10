@@ -23,14 +23,14 @@
 #
 
 # Inherit from sony sm8350-common
-$(call inherit-product, device/sony/sm8350-common/common.mk)
+$(call inherit-product, device/sony/sm6375-common/common.mk)
 
 # Inherit from sony extra stuff
-$(call inherit-product-if-exists, vendor/sony/pdx215-extra/extra.mk)
+$(call inherit-product-if-exists, vendor/sony/pdx225-extra/extra.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2520
+TARGET_SCREEN_WIDTH := 1080
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -55,4 +55,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx215/pdx215-vendor.mk)
+$(call inherit-product, vendor/sony/pdx225/pdx225-vendor.mk)
