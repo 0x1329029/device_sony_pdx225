@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit from sony sm6375-common
--include device/sony/sm6375-common/BoardConfigCommon.mk
+# Inherit from sony murray
+-include device/sony/murray/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/pdx225
 

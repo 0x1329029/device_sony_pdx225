@@ -18,25 +18,24 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from device.mk
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
-
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-IS_PHONE := true
+# Inherit from device.mk
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+IS_PHONE := true
 PRODUCT_NAME := lineage_pdx225
 PRODUCT_DEVICE := pdx225
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := pdx225
+PRODUCT_MODEL := Xperia 10 IV
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=pdx225 \
-    TARGET_PRODUCT=pdx225 \
-    PRIVATE_BUILD_DESC="Sony qssi 12 SKQ1.211006.001 user release-keys"
+    TARGET_PRODUCT=Xperia 10 IV \
+    PRIVATE_BUILD_DESC="Sony pdx225 pdx225:11 RKQ1.220715.001 1 release-keys"
 
-BUILD_FINGERPRINT := Sony/qssi/qssi:12/SKQ1.211006.001/1:user/release-keys
+BUILD_FINGERPRINT := Sony/qssi/qssi:13/TKQ1.220807.001/1:user/release-keys

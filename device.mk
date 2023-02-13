@@ -22,11 +22,11 @@
 # definition file).
 #
 
-# Inherit from sony sm8350-common
-$(call inherit-product, device/sony/sm6375-common/common.mk)
+# Inherit from sony murray
+$(call inherit-product, device/sony/murray/common.mk)
 
 # Inherit from sony extra stuff
-$(call inherit-product-if-exists, vendor/sony/pdx225-extra/extra.mk)
+$(call inherit-product-if-exists, vendor/sony/extra/extra.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2520

@@ -1,6 +1,10 @@
 [
   {
-    "repository": "android_device_sony_sm8350-common",
-    "target_path": "device/sony/sm8350-common"
+    "repository": "device_sony_murray",
+    "target_path": "device/sony/murray"
+  },
+  {
+    "repository": "kernel_sony_murray",
+    "target_path": "kernel/sony/murray"
   }
 ]
