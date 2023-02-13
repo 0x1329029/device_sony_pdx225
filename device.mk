@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-   SonyPDX215SystemUIRes
+   SonyPDX225SystemUIRes
 
 # NFC
 PRODUCT_COPY_FILES += \
