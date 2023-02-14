@@ -36,6 +36,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=pdx225 \
     TARGET_PRODUCT=Xperia 10 IV \
-    PRIVATE_BUILD_DESC="Sony pdx225 pdx225:11 RKQ1.220715.001 1 release-keys"
+    PRIVATE_BUILD_DESC="Sony pdx225 11 RKQ1.220715.001 user release-keys"
 
 BUILD_FINGERPRINT := Sony/qssi/qssi:13/TKQ1.220807.001/1:user/release-keys
